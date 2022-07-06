@@ -980,12 +980,17 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 
 
 /* common */
+
 .d-flex {
     display: flex !important;
 }
 
 .d-block {
     display: block !important;
+}
+
+.d-inline-block {
+    display: inline-block !important;
 }
 
 .justify-content-between {
@@ -1008,7 +1013,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     margin-right: auto !important;
     margin-left: auto !important;
 }
-
 
 label {
     display: inline-block;
@@ -1107,22 +1111,27 @@ input, button, select, optgroup, textarea {
     flex-wrap: wrap;
     align-items: stretch;
     width: 100%}
+
 .input-group>.form-control, .input-group>.form-select {
     position: relative;
     flex: 1 1 auto;
     width: 1%;
     min-width: 0;
 }
+
 .input-group>.form-control:focus, .input-group>.form-select:focus {
     z-index: 3;
 }
+
 .input-group .btn {
     position: relative;
     z-index: 2;
 }
+
 .input-group .btn:focus {
     z-index: 3;
 }
+
 .input-group-text {
     display: flex;
     align-items: center;
@@ -1137,6 +1146,7 @@ input, button, select, optgroup, textarea {
     border: 1px solid #ced4da;
     border-radius: 0;
 }
+
 /* quantity */
 
 .quantity {
